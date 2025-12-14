@@ -9,7 +9,7 @@ header('Access-Control-Allow-Headers: Content-Type');
 session_start();
 header('Content-Type: application/json');
 
-//Test
+//Test 1
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = [];
 }
